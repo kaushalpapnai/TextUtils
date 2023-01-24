@@ -52,7 +52,7 @@ function App() {
 
   return (
     <Router>
-      <Navbar2 title="TextUtils" about="about " mode = {mode} toDarkMode={toDarkMode} btnText = {btnText} />
+      <Navbar2 title="TextUtils2" about="about " mode = {mode} toDarkMode={toDarkMode} btnText = {btnText} />
       <Alert alert = {alert}/>
       <Routes>
           <Route exact path="/" element={< TextForm heading="Enter the text to analyze "  showAlert = {showAlert} mode = {mode} />} />
